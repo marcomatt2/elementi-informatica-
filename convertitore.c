@@ -5,11 +5,11 @@ int main()
     double pollici;
     double centimetri;
     printf("inserisci il valore dei pollici:\n");
-    scanf("%f,&pollici");
+    scanf("%lf", &pollici);
     if(pollici>=0)
     {
-        centimetri=pollici*2,54;
-        printf("i centimetri valgono:\n",centimetri);
+        centimetri = pollici * 2.54;
+        printf("i centimetri valgono:%lf\n", centimetri);
 
     } else
     {
